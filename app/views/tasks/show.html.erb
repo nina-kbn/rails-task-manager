@@ -3,7 +3,7 @@
 <p><%= @task.completed %></p>
 
 <%= link_to "Home Page", tasks_path%>
-<%= link_to "Edit", task_edit_path(@task) %>
+<%= link_to "Edit", edit_task_path(@task) %>
 
 <%= link_to "Delete",
   task_path(@task),
